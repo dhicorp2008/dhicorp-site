@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><title>DHI Computing Service, Inc. | Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto:100,400,700">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="template-page sidebar-collapse">
+<nav class="navbar navbar-light navbar-expand-lg">
+  <div class="container"><a class="navbar-brand" href="/"><img src="/images/DHI.png" alt="dhi" width="100"></a>
+    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation"><span
+      class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+      class="navbar-toggler-bar bar3"></span></button>
+    <div class="collapse navbar-collapse justify-content-end" data-nav-image="/images/blurred-image-1.jpg">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="text-primary font-weight-bold" href="/jobs">Join the Team</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="wrapper">
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-12"><img style="width:100%;" src="/images/bg-about.jpg"></div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-5 mr-5"><h1>Contact Us</h1>
+        <p><strong>Address:</strong><br>1525 W 820 N.<br>Provo, UT 84601</p>
+        <p><strong>Phone Number: </strong><br>(800) 453-9400</p><img src="/images/map.png"
+                                                                     alt="Map of DHI Computing Service, Inc."
+                                                                     width="100%"></div>
+      <!-- TODO: Change this to HubSpot form of a netlify form -->
+      <!-- https://docs.netlify.com/forms/setup/ -->
+      <div class="col-5 ml-5"><h2>Send us an email</h2>
+        <form action="/sendform/" target="_self" method="POST">
+          <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Full name..."></div>
+          <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email address...">
+          </div>
+          <div class="form-group"><input class="form-control" type="tel" name="phone" placeholder="Phone number...">
+          </div>
+          <div class="form-group"><textarea class="form-control" rows="4" cols="50" name="message"
+                                            placeholder="Enter your message..."></textarea></div>
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="grayFooter mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6"><a class="navbar-brand" href="/"><img src="/images/DHI.png" alt="dhi" width="100"></a></div>
+      <div class="col-md-6">
+        <div class="d-flex flex-row justify-content-end"><a class="pl-3" href="/contact">Contact Us</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="/dist/App.bundle.js"></script>
+</body>
+</html>
