@@ -5985,6 +5985,10 @@ a, p {
   line-height: 0.5;
   font-family: 'Montserrat', sans-serif; }
 
+  .numbers-row * {
+    color: #79919D;
+  }
+
 .num-desc {
   text-align: center;
   font-family: 'Hind', sans-serif; }
